@@ -1,1 +1,1 @@
-# sample-bloge
+# simple-bloge
