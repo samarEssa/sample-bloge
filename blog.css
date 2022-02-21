@@ -1,0 +1,152 @@
+
+
+
+* {
+
+
+
+margin: 0px;
+padding: 0px;
+font-family: monospace;
+box-sizing: border-box;
+
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+background-color: #b3cccc;
+
+
+}
+#blog {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 40px;
+border-bottom: 1px solid ragba(0,0,0,0.05)
+
+
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.heading span {
+color: #527a7a;
+
+}
+.heading h3{
+font-size: 4.4rem;
+font-weight: 400;
+margin-top: 100px;
+text-align: center;
+margin-top:-200px;
+position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 1.5em;
+    font-weight: 70;
+    color:  #862d2d;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #ffcc00,
+        1px 3px 1px #ffcc00,
+        1px 4px 1px#ffcc00,
+        1px 5px 1px #ffcc00,
+        1px 6px 1px #ffcc00,
+        1px 7px 1px #ffcc00,
+        1px 8px 1px #ffcc00,
+        1px 9px 1px #ffcc00,
+        1px 10px 1px#ffcc00,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+table{
+
+  margin-top: 80px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+
+
+}
+.box{
+  width:240px;
+background: white;
+border: 1px solid white;
+margin: 20px;
+margin-top: 80px;
+}
+.img{
+width: 100%;
+height: auto;
+
+}
+.img img{
+width: 240px;
+height: 160px;
+object-fit: cover;
+object-position: center;
+
+
+}
+.text{
+
+padding: 30%;
+display:flex;
+  flex-direction: column;
+}
+.text span{
+color: #f33c3c;
+font-size: 0.9;
+
+
+}
+
+.text.title {
+font-size: 1.3rem;
+font-weight:500;
+color: black;
+
+}
+.texe p{
+color: #9b9b9b;
+font-size: 0.9rem;
+display:-webkit-box;
+overflow: hidden;
+text-overflow: ellipsis;
+margin-top: 80px;
+
+}
+.text a{
+  color: #cc6666;
+  margin-top:-50px;
+}
+.text a:hover{
+color: #f33c3c;
+transition: all ease 0.3s;
+
+}
+.icon{
+width: 100px;
+margin-left:  20px;
+
+}
+hr{
+
+  color: black;
+}
